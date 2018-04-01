@@ -1,0 +1,41 @@
+DOM Selectors
+--------------
+getElementsByTagName
+getElementsByClassName
+getElementById
+
+querySelector
+querySelectorAll
+
+createElement
+
+getAttribute
+setAttribute
+hasAttribute
+
+createAttribute
+createTextNode
+
+use value property to set the value to the created attribute => created_attribute.value("")
+
+setAttributeNode
+removeAttributeNode
+
+##Changing Styles
+style.{property} //ok
+
+className //best
+classList //best
+
+classList.add
+classList.remove
+classList.toggle
+
+##Bonus
+innerHTML //DANGEROUS
+
+parentElement
+children
+appendChild
+
+##It is important to CACHE selectors in variables

@@ -1,0 +1,30 @@
+.mystyle {
+    width: 180px;
+    height: 30px;
+    background-color: coral;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.temp1{
+	width:400px;
+	height: : 50px;
+	background-color: yellow;
+	text-align: center;
+	color: black;
+}
+
+/*#demo1{
+    width: 80px;
+    height: 30px;
+    background-color: grey;
+    text-align: center;
+}*/
+
+.demotoggle{
+    width: 80px;
+    height: 30px;
+    background-color: grey;
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+#gradient{
+	background: linear-gradient(to right, blue, yellow) ;
+	text-align: center;
+	color: white;
+}
+
+.bg{
+	font-size: 50px;
+}
+
+p{
+	font-size: 20px;
+}

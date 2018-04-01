@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Dom Selector.css">
+</head>
+<body>
+
+<p>Click the button to display the value of the class attribute of the div element below.</p>
+
+<div class="mystyle">
+I am a DIV element  - 0
+</div>
+
+<div class="mystyle">
+I am a DIV element - 1
+</div>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo1" class="demotoggle">demo1</p>
+<p class = "demo2">demo2 - 1</p>
+<p class = "demo2">demo2 - 2</p>
+
+<script>
+function myFunction() {
+    var x = document.querySelectorAll("div")[1];
+    console.log(x);
+    x.className = "";
+    //x.classList.add("temp1");
+    //x.classList.remove("mystyle");
+    //x.classList.toggle("temp1");
+    
+    var y = document.querySelector("div");
+    console.log(y);
+    y.classList.add("temp1");
+
+    var z = document.querySelector("#demo1");//demo1 is id so need to add # before specifying the id name.
+    console.log(z);
+    z.classList.remove("demotoggle");
+
+	var p = document.querySelector(".demo2");//demo2 is class so need to add .(dot) before specifying the class name.
+    console.log(p);   
+    p.classList.toggle("demotoggle");
+
+    var q = document.querySelectorAll(".demo2")[1];//demo2 is class so need to add .(dot) before specifying the class name.
+    console.log(q); 
+    q.style.color="red";
+}
+</script>
+
+</body>
+</html>
