@@ -1,0 +1,11 @@
+body{
+  font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: 0.5px;
+  color: #222;
+  background-color: #272b30;
+/*  background-image: url(D:/Web Development/sublime/ReactJS/facerecognitonapp/src/components/logo/logo.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;*/
+}
